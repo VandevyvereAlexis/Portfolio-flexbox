@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer">
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Dongle:wght@300;400;700&display=swap" rel="stylesheet">
+
+        <title>Portfolio</title>
+    </head>
+
+    <body>
+
+        <header>
+            <nav>
+                <a href="#retour-acceuil">
+                    <img src="./images/logo:vdva.png" alt="VDVA">
+                </a>
+    
+                <a class="cv" href="./cv/cv.pdf" target="_blank">
+                    <i class="fa-solid fa-download fa-sm"></i>
+                    <p>cv</p>
+                </a>
+    
+                <ul class="nav-links">
+                    <li>
+                        <a class="profil" href="#rea">Réalisations</a>
+                    </li>
+                    <li>
+                        <a href="#tech">Technologies</a>
+                    </li>
+                    <li>
+                        <a href="#texte">Profil</a>
+                    </li>
+                    <li>
+                        <a href="#contact">Contact</a>
+                    </li>
+                </ul>
+
+                <i class="fa-solid fa-ellipsis fa-2xl" id="menu-burger"></i>
+            
+            </nav>  
+
+            <a href="#">
+                <i class="fa-solid fa-circle-arrow-up" id="retour-acceuil"></i>
+            </a>
+
+        </header>
+
+        <main>
+            <section class="profil">
+                <div>
+                    <h1>Hello, I'm Alexis</h1>
+                    <h2>Developpeur Web</h2>
+                    <a href="#contact" target="_blank">Collaborons</a> <br>
+                    <a href="./cv/cv.pdf" target="_blank">Télécharger mon cv</a>
+                </div>
+                <img src="./images/memoji.png" alt="Alexis Vandevyvere" class="moi">  
+            </section>
+
+            <div class="reseaux">
+                <a href="#">
+                    <i class="fa-brands fa-linkedin-in"></i>
+                </a>
+                <a href="#">
+                    <i class="fa-brands fa-github"></i>
+                </a>
+            </div>
+
+            <h2 class="titre-realisations">Mes réalisations</h2>
+
+            <section class="realisations" id="rea">
+                    <a href="#" target="_blank">
+                        <img src="./images/navbar.png" alt="Navbar" title="Navbar">
+                    </a>
+                    <a href="#" target="_blank">
+                        <img src="./images/carte-de-visite.png" alt="Carte de viste" title="Carte de visite">
+                    </a>
+                    <a href="#" target="_blank">
+                        <img src="./images/kome-waza.png" alt="Kome waza" title="Kome waza">
+                    </a>
+                    <a href="#" target="_blank">
+                        <img src="./images/portfolio.png" alt="Portfolio" title="Portfolio">
+                    </a>
+            </section>
+
+            <section class="technologies" id="tech">
+            <h2>technologies</h2>
+                <div class="front">
+                    <a href="#" class="ok">
+                        <i class="fa-brands fa-html5"></i>
+                    </a>
+                    <a href="#" class="ok">
+                        <i class="fa-brands fa-css3-alt"></i>
+                    </a>
+                    <a href="#" class="attente">
+                        <i class="fa-brands fa-square-js"></i>
+                    </a>
+                    <a href="#" class="attente">
+                        <i class="fa-brands fa-bootstrap"></i>
+                    </a>
+                    <a href="#" class="attente">
+                        <i class="fa-brands fa-vuejs"></i>
+                    </a>
+                    <a href="#" class="attente">
+                        <i class="fa-brands fa-wordpress"></i>
+                    </a>
+                </div>
+                <br>
+                <div class="back">
+                    <a href="#" class="attente">
+                        <i class="fa-brands fa-php"></i>
+                    </a>
+                    <a href="#" class="attente">
+                        <i class="fa-brands fa-laravel"></i>
+                    </a>
+                    <a href="#" class="attente">
+                        <i class="fa-brands fa-java"></i>
+                    </a>
+                    <a href="#" class="attente">
+                        <img src="./images/mysql.png">
+                    </a>
+                </div>
+            </section>
+            
+            <section class="texte" id="texte">
+                <img src="./images/profil.png" alt="Alexis Vandevyvere">
+                <div>
+                    <h2>Qui suis-je ?</h2>
+                    <p>Bonjour, je suis Alexis. <br> J'ai toujours eu un intérêt pour le monde de la technologie. <br> Après 6 ans dans le milieu de l'automobile, mon envie de me <br> développer et de découvrir d'autre chose mon ameneé à <br> franchir le pas et de faire du développement web mon métier. <br> À ce jour, je suis en formation continue à l'école de formation <br> Arinfo pour une durée de 6 mois.</p>
+                </div>
+            </section>
+        </main>
+
+
+            <footer id="contact">
+                <h2>Me contacter</h2>
+                <div class="contact">
+                    <div class="one">
+                        <i class="fa-sharp fa-regular fa-at"></i>
+                        <p class="mail">vandevyevre.alexis@gmail.fr</p>
+                    </div>
+                    <div class="two">
+                        <a href="https://www.google.fr/maps/place/79000+Niort/@46.3273648,-0.5025187,13z/data=!3m1!4b1!4m6!3m5!1s0x4807303211d686f5:0x405d39260e82ac0!8m2!3d46.323716!4d-0.464777!16zL20vMDJsd3Q5">
+                            <i class="fa-solid fa-map-pin"></i>
+                            <p class="niort">Niort</p>
+                        </a>
+                    </div>
+                    <div class="three">
+                        <i class="fa-solid fa-phone"></i>
+                        <p class="tel">07.51.99.25.07</p>
+                    </div>
+            </footer>
+
+
+
+
+
+
+
+        </main>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <script>
+            const menuHamburger = document.querySelector("#menu-burger")
+            const navLinks = document.querySelector(".nav-links")
+        
+            menuHamburger.addEventListener('click',()=>{
+            navLinks.classList.toggle('mobile-menu')
+            })
+        </script>
+    </body>
+</html>
