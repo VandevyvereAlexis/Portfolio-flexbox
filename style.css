@@ -1,0 +1,736 @@
+body {
+    width: 100%;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    background-color: #dfd8d0;
+}
+
+header nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #dfd8d04b;
+    box-shadow: 1px 1px 10px 1px rgb(178, 95, 255);
+    background-image: linear-gradient(rgba(177, 177, 177, 0.34), rgba(178, 95, 255, 0.165));
+    border-radius: 30px;
+    margin-top: 8px;
+    margin-left: 10px;
+    margin-right: 11px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    animation: apparition 0.8s ease-in-out;
+}
+
+nav {
+    padding-top: 2px;
+}
+
+header nav a img {
+    width: 75px;
+    transition: 0.5s;
+    animation: apparition 0.8s ease-in-out;
+}
+
+header nav a img:hover {
+    transform: scale(1.2);
+    transform: rotate(720deg);
+    transition: 0.5s;
+}
+
+header nav a {
+    text-decoration: none;
+    color: #4d4d4d;
+}
+
+header nav a i {
+    padding-top: 30px;
+}
+
+header nav .cv {
+    transition: 0.5s;
+    animation: apparition 0.8s ease-in-out;
+}
+
+header nav .cv:hover {
+    transition: 0.5s;
+    color: rgba(240, 255, 255, 0.835);
+    transform: scale(1.3);
+}
+
+header nav a p {
+    margin-top: 0;
+    color: #636363;
+    font-family: 'Dongle', sans-serif;
+    font-weight: bold;
+    margin-left: 1px;
+    transition: 0.5s;
+}
+
+header nav .cv p:hover {
+    transition: 0.5s;
+    color: rgba(240, 255, 255, 0.835);
+}
+
+header nav ul {
+    display: flex;
+    align-items: center;
+    gap: 80px;
+    padding-left: 0;
+}
+
+header nav ul li {
+    text-decoration: none;
+    list-style-type: none;
+    font-weight: 300;
+    font-size: 27px;
+    font-family: 'Dongle', sans-serif;
+    animation: apparition 0.8s ease-in-out;
+}
+
+header nav ul li .profil{
+    font-weight: bold;
+    color: rgb(178, 95, 255);
+}
+
+header nav ul li a { 
+    transition: 0.7s;
+}
+
+header nav ul li a:hover {
+    transition: 0.7s;
+    margin-bottom: 5px;
+    color:  rgb(255, 255, 255);
+    font-weight: bold;
+}
+
+#menu-burger{
+    visibility: hidden;
+    position: fixed;
+    color: #636363;
+    right: 55px;
+    top: 60px;
+}
+
+#retour-acceuil {
+    font-size: 25px;
+    position: fixed;
+    left: 50%;
+    top: 10px;
+    color: rgba(240, 255, 255, 0.234);
+}
+
+main .profil {
+    display: flex;
+    justify-content: center;
+    gap: 150px;
+    margin-top: 15px;
+    padding-top: 125px;
+    padding-bottom: 125px;
+    box-shadow: 1px 1px 10px 1px rgb(178, 95, 255);
+    background-image: linear-gradient(rgba(177, 177, 177, 0.34), rgba(178, 95, 255, 0.165));
+    border-radius: 30px;
+    margin-left: 10px;
+    margin-right: 10px;
+    animation: apparition 0.8s ease-in-out;
+    flex-wrap: wrap;
+}
+
+main .profil div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    animation: apparition 0.8s ease-in-out;
+}
+
+main .profil h1 {
+    font-family: 'Dongle', sans-serif;
+    font-weight: 800;
+    font-size: 75px;
+    color: #4d4d4d;
+    margin-bottom: 0;
+    animation: apparition 0.8s ease-in-out;
+}
+
+main .profil h2 {
+    font-family: 'Dongle', sans-serif;
+    text-align: center;
+    margin-top: 0;
+    font-size: 50px;
+    color: rgb(178, 95, 255);
+    line-height: 2px;
+    word-spacing: 8px;
+    animation: apparition 0.8s ease-in-out;
+}
+
+main .profil a {
+    text-decoration: none;
+    color: rgba(240, 255, 255, 0.835);
+    font-family: 'Dongle', sans-serif;
+    border: 1px solid;
+    text-align: center;
+    font-size: 45px;
+    font-weight: bold;
+    box-shadow: 4px 4px 1px rgba(240, 255, 255, 0.694);
+    animation: apparition 0.8s ease-in-out;
+    transition: 0.7s;
+}
+
+main .profil .bouton {
+    margin-top: 20px;
+}
+
+main .profil a:hover {
+    transform: scale(1.3);
+    color: rgb(178, 95, 255);
+    box-shadow: 1px 1px 10px 1px rgb(178, 95, 255);
+}
+
+main .profil img {
+    animation: apparition 0.8s ease-in-out;
+}
+
+main .reseaux {
+    display: flex;
+    justify-content: center;
+    gap: 500px;
+    margin-top: 15px;
+    box-shadow: 1px 2px 10px 1px rgb(178, 95, 255);
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-image: linear-gradient(rgba(178, 95, 255, 0.207),rgba(177, 177, 177, 0.244));
+    animation: apparition 0.8s ease-in-out;
+}
+
+main .reseaux i {
+    font-size: 70px;
+    color: rgb(178, 95, 255);
+    animation: apparition 0.8s ease-in-out;
+    transition: 0.7s;
+}
+
+main .reseaux i:hover {
+    transform: scale(1.2);
+    color:  rgba(240, 255, 255, 0.835);
+    transition: 0.7s;
+    transform: rotate(720deg);
+}
+
+main .realisations {
+    display: flex;
+    justify-content: center;
+    box-shadow: 1px 2px 10px 1px rgb(178, 95, 255);
+    margin-top: 15px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    border-radius: 30px;
+    margin-left: 10px;
+    margin-right: 10px;
+    justify-content: center;
+    gap: 10px;
+    background-image: linear-gradient(rgba(177, 177, 177, 0.34), rgba(178, 95, 255, 0.165));
+    animation: apparition 0.8s ease-in-out;
+    flex-wrap: wrap;
+}
+
+main .titre-realisations {
+    position: absolute;
+    font-family: 'Dongle', sans-serif;
+    margin-top: 35px;
+    font-size: 50px;
+    animation: apparition 0.8s ease-in-out;
+    color: #4d4d4d;
+    transition: 0.7s;
+    left: 43%;
+}
+
+
+main .titre-realisations:hover {
+    transition: 0.7s;
+    color: rgb(178, 95, 255);
+}
+
+main .realisations img {
+    width: 400px;
+    border-radius: 20px;
+    box-shadow: 1px 3px 9px 3px rgba(255, 255, 255, 0.502);
+    animation: apparition 0.8s ease-in-out;
+    transition: 0.7s;
+}
+
+main .realisation .carte {
+    align-self: auto;
+}
+
+main .realisations img:hover {
+    transition: 0.7s;
+    transform: scale(1.1);
+}
+
+main .technologies {
+    box-shadow: 1px 2px 10px 1px rgb(178, 95, 255);
+    margin-top: 15px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    border-radius: 30px;
+    margin-left: 10px;
+    margin-right: 10px;
+    background-image: linear-gradient(rgba(178, 95, 255, 0.165), rgba(177, 177, 177, 0.34));
+    animation: apparition 0.8s ease-in-out;
+}
+
+main .technologies .front {
+    display: flex;
+    justify-content: center;
+    gap: 150px;
+    font-size: 50px;
+    color: #4d4d4d;
+    animation: apparition 0.8s ease-in-out;
+}
+
+main .technologies .back {
+    display: flex;
+    justify-content: center;
+    gap: 180px;
+    font-size: 70px;
+    padding-top: 25px;
+    color: #4d4d4d;
+    animation: apparition 0.8s ease-in-out;
+}
+
+main .technologies i {
+    font-size: 50px;
+}
+
+main .technologies .back img {
+    width: 70px;
+    transition: 0.7s;
+}
+
+main .technologies .ok:hover {
+    transition: 0.7s;
+    color:  rgb(152, 243, 77);
+    transform: rotate(720deg);
+}
+
+main .technologies .attente:hover {
+    transition: 0.7s;
+    color:  rgba(218, 164, 49, 0.709);
+    transform: rotate(720deg);
+}
+
+main .technologies img:hover {
+    transition: 0.7s;
+    transform: rotate(720deg);
+}
+
+main .technologies h2 {
+    text-align: center;
+    padding-bottom: 20px;
+    font-family: 'Dongle', sans-serif;
+    font-size: 40px;
+    color: #4d4d4d;
+    transition: 0.7s;
+    animation: apparition 0.8s ease-in-out;
+    font-size: 50px;
+    margin: 0;
+}
+
+main .technologies h2:hover {
+    transition: 0.7s;
+    transform: scale(1.1);
+    color: rgb(178, 95, 255);
+}
+
+main .texte {
+    display: flex;
+    justify-content: center;
+    background-image: linear-gradient(rgba(178, 95, 255, 0.165), rgba(177, 177, 177, 0.34));
+    box-shadow: 1px 2px 10px 1px rgb(178, 95, 255);
+    margin-top: 15px;
+    border-radius: 30px;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    gap: 150px;
+    animation: apparition 0.8s ease-in-out;
+    color: #4d4d4d;
+    font-family: 'Dongle', sans-serif;
+    flex-wrap: wrap-reverse;
+}
+
+main .texte h2 {
+    font-weight: 800;
+    word-spacing: 8px;
+    font-size: 40px;
+    color: rgb(178, 95, 255);
+    margin-bottom: 0;
+    animation: apparition 0.8s ease-in-out;
+    text-align: center;
+}
+
+main .texte img {
+    width: 280px;
+}
+
+main .texte img {
+    width: 250px;
+}
+
+main .texte p {
+    word-spacing: 1px;
+    font-size: 29px;
+    animation: apparition 0.8s ease-in-out;
+    margin: 0;
+    transition: 0.7s;
+    line-height: 30px;
+}
+
+main .texte p:hover {
+    transform: scale(1.1);
+    transition: 0.7s;
+}
+
+footer{
+    background-image: linear-gradient(rgba(177, 177, 177, 0.34), rgba(178, 95, 255, 0.165));
+    box-shadow: 1px 2px 10px 1px rgb(178, 95, 255);
+    margin-top: 15px;
+    border-radius: 30px;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-top: 8px;
+    padding-bottom: 15px;
+    font-family: 'Dongle', sans-serif;
+    color: #4d4d4d;
+    animation: apparition 0.8s ease-in-out;
+}
+
+footer .contact{
+    display: flex;
+    justify-content: center;
+    animation: apparition 0.8s ease-in-out;
+    gap: 40px;
+    flex-direction: column;
+}
+
+footer h2 {
+    text-align: center;
+    font-size: 45px;
+    animation: apparition 0.8s ease-in-out;
+    color: #4d4d4d;
+}
+
+footer .one {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-size: 25px;
+    box-shadow: 1px 3px 9px 3px rgba(255, 255, 255, 0.502);
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    animation: apparition 0.8s ease-in-out;
+    border-radius: 30px;
+    margin-left: 5px;
+    margin-right: 5px;
+    transition: 0.7s;
+}
+
+footer .two {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-size: 25px;
+    box-shadow: 1px 3px 9px 3px rgba(255, 255, 255, 0.502);
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 10px;
+    animation: apparition 0.8s ease-in-out;
+    border-radius: 30px;
+    margin-left: 5px;
+    margin-right: 5px;
+    transition: 0.7s;
+}
+
+footer .two a {
+    text-decoration: none;
+    color: #4d4d4d;
+}
+
+footer p {
+    margin-bottom: 0;
+    font-weight: bold;
+}
+
+footer .two .niort {
+    margin-top: 3px;
+}
+
+footer .one .mail {
+    margin-top: 3px;
+}
+
+footer .three .tel {
+    margin-top: 3px;
+}
+
+footer .three {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-size: 25px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    box-shadow: 1px 3px 9px 3px rgba(255, 255, 255, 0.651);
+    animation: apparition 0.8s ease-in-out;
+    border-radius: 30px;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-bottom: 30px;
+    transition: 0.7s;
+}
+
+footer .one:hover {
+    transform: scale(1.3);
+    transition: 0.7s;
+    color: rgb(178, 95, 255);
+}
+
+footer .two:hover {
+    transform: scale(1.3);
+    transition: 0.7s;
+    color: rgb(178, 95, 255);
+}
+
+footer .three:hover {
+    transform: scale(1.3);
+    transition: 0.7s;
+    color: rgb(178, 95, 255);
+}
+
+footer .droit {
+    font-size: 20px;
+    text-align: center;
+}
+
+@keyframes apparition {
+    from {
+        opacity: 0;
+        transform: translateY(-100px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}
+
+@media screen and ( max-width: 1463px ) {
+    main .technologies .front {
+        gap: 85px; 
+    }
+}
+
+@media screen and ( max-width: 996px ) {
+    main .technologies .front {
+        gap: 90px; 
+        font-size: 30px;
+    }
+    main .technologies .back {
+        gap: 85px; 
+        font-size: 30px;
+    }
+    main .technologies .back img {
+        width: 34px;
+    }
+    
+}
+
+@media screen and ( min-width: 768px ) and ( max-width: 1024px ) {
+    header nav {
+        display: flex;
+        flex-direction: column;
+    }
+    header nav img {
+        position: absolute;
+        left: 35px;
+        top: 17px;
+    }
+    header nav .cv {
+        position: absolute;
+        right: 40px;
+    }
+    header nav ul {
+        display: flex;
+        justify-content: space-around;
+        gap: 38px;
+    }
+    main .technologies .front {
+        gap: 90px; 
+        font-size: 30px;
+    }
+    main .technologies .back {
+        gap: 85px; 
+        font-size: 30px;
+    }
+    main .technologies .back img {
+        width: 60px;
+    }
+    main .titre-realisations {
+        left: 40%;
+    }
+}
+
+@media screen and ( min-width: 375px ) and ( max-width: 768px ) {
+    header nav {
+        box-shadow: none;
+        margin: 0;
+        padding: 0;
+    }
+    header nav a img {
+        position: fixed;
+        width: 60px;
+        box-shadow: 4px 5px 8px rgba(178, 95, 255, 0.536);
+        left: 25px;
+        top: 15px;
+    }
+    header nav .cv {
+        position: fixed;
+        left: 150px;
+        top: 5px;
+    }
+    .nav-links {
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        background-color: rgba(178, 95, 255, 0.043);
+        backdrop-filter: blur(12px);
+        margin: 0;
+        top: 0;
+        width: 100%;
+        height: 100vh;
+        justify-content: center;
+        gap: 100px;
+        margin-left: -200%;
+        transition: all 0.5s ease;
+        position: fixed;
+        z-index: 1;
+    }
+    .mobile-menu{
+        margin-left: 0;
+    }
+    .nav-links a {
+        font-size: 40px;
+        font-weight: bold;
+    }
+    #menu-burger {
+        visibility: visible;
+        right: 40px;
+        top: 43px;
+        font-size: 20px;
+        z-index: 1;
+    }
+    main {
+        margin-top: 110px;
+    }
+    main .titre-realisations {
+        left: 30%;
+    }
+    main .texte div h2 {
+        font-size: 40px;
+    }
+    main .texte div p {
+        font-size: 25px;
+        padding-right: 5px;
+        padding-left: 5px;
+    }
+    main .reseaux {
+        gap: 150px;
+    }
+    main .technologies .front {
+        gap: 30px;
+    }
+    main .technologies .back {
+        gap: 30px;
+    }
+    main .technologies .back img {
+        width: 50px;
+    }
+}
+
+@media screen and ( min-width: 320px ) and ( max-width: 480px ) {    
+    header nav a img {
+        left: 15px;
+    }
+    header nav .cv {
+        left: 33%;
+        font-size: 16px;
+    } 
+    #retour-acceuil {
+        left: 59%;
+        top: 27px;
+    }
+    header nav .nav-links a {
+        font-size: 30px;
+    }
+    main .profil img {
+        width: 180px;
+    }
+    main .profil {
+        padding-top: 10px;
+        gap: 25px;
+        padding-bottom: 40px;
+    }
+    main .profil h1 {
+        font-size: 70px;
+    }
+    main .titre-realisations {
+        left: 25%;
+        font-size: 40px;
+    }
+    main .realisations {
+        padding-bottom: 20px;
+    }
+    main .realisations img{
+        width: 345px;
+    }
+    main .technologies h2 {
+        font-size: 40px;
+    }
+    main .technologies .front i {
+        font-size: 30px;
+    }
+    main .technologies .back i {
+        font-size: 30px;
+    }
+    main .technologies .back img {
+        width: 37px;
+    }
+    main .texte {
+        padding-top: 15px;
+        gap: 30px;
+        padding-bottom: 60px;
+    }
+    main .texte img {
+        width: 180px;
+    }
+    main .texte p {
+        text-align: center;
+        margin-left: 5px;
+        margin-right: 5px;
+        line-height: 30px;
+        padding-top: 10px;
+    }
+    footer h2 {
+        font-size: 40px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    footer {
+        margin-bottom: 20px;
+    }
+}
